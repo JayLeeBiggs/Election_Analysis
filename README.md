@@ -3,54 +3,39 @@ Project for analyzing voting results - using Python
 
 **Overview of Election Audit**
 
-Initially, the project was initiated to provide a basic analysis and written file of: the candidates, the percentage of votes each candidate received, and the raw votes each candidate received. Upon review by the Election Commission, the project was expanded to provide more analysis and further reporting. The additional data requested includes a breakdown of individual counties, their voter turnout, and the percentage of votes cast in each county. 
+Initially, the project was initiated to create a python script that would provide a basic analysis and written file of: the candidates, the percentage of votes each candidate received, and the raw votes each candidate received. Upon review by the Election Commission, the project was expanded to provide more analysis and further reporting. The additional scripting requested includes a breakdown of individual counties, their voter turnout, and the percentage of votes cast in each county. 
 
 **Election-Audit Results**
 
 During the analysis, the following outcomes were observed:
 
-*![Total_Votes](https://user-images.githubusercontent.com/104948461/171550916-1e2812ba-7946-4b23-bf89-80469309f827.png)
+*1 Total Number of Votes:
+https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Total_Votes.png
+
+*2 Number of votes cast by county and the percentage of the total:
+https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/County_Data.png
+
+*3 The county with largest number of votes:
+https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Largest_Voter_Turnout.png
+
+*4 Number of votes received by each candidate and the percentage of the total votes received by each candidate:
+https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Candidate_Data.png
+
+*5 The winning candidate with their number of votes and percentage of votes received:
+https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Winning_Candidate.png
+
 
 
 **Election-Audit Summary**
 
+The current script is a useful tool for analyzing data in a single precint in Colorado. However, if the script were expanded, it would allow for data to be analyzed
+across zip codes, cities, and states. Additionally, the party of the candidate could be added as well. The benefits of expanding the script are a more complete
+understanding of voter behaviors that can be broken down in a more granular way - as well as allowing for multiple types of elections to examined from local to
+national.
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+The script can be expanded to be used for any election with addition of a few more data fields in the Excel file. The fields that would need to be added are: zip 
+code and state. By adding zip code, it becomes possible to break down county elections. Adding the city field, allows for the analysis of municipal voting. With the
+addition of state, it becomes possible to examine state level voting in a national election. 
 
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections. (2 pt)
-
-Each section has a heading. (2 pt)
-
-Links to images are working, and code is formatted and displayed correctly. (2 pt)
-
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of Election Audit
-
-The purpose of this election analysis audit is well defined. (3 pt)
-Election Audit Results
-
-There is a bulleted list where each election outcome is addressed. (7 pt)
-Election Audit Summary
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
-Submission
-Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
-
-As a reminder, the deliverables for this Challenge are as follows:
-
-Deliverable 1: The Election Results Printed to the Command Line
-Deliverable 2: The Election Results Saved to a Text File
-Deliverable 3: A written Analysis of the Election Audit (README.md)
+The script can also be expanded to account for political affiliation - Independent, Democrat, Republican, and / contain an append function to add other small parties
+to the information. 
