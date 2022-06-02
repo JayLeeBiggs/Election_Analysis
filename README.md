@@ -8,7 +8,9 @@ Initially, the project was initiated to provide a basic analysis and written fil
 **Election-Audit Results**
 
 During the analysis, the following outcomes were observed:
-*
+
+*![Total_Votes](https://user-images.githubusercontent.com/104948461/171550916-1e2812ba-7946-4b23-bf89-80469309f827.png)
+
 
 **Election-Audit Summary**
 
