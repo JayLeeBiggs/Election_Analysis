@@ -10,18 +10,29 @@ Initially, the project was initiated to create a python script that would provid
 During the analysis, the following outcomes were observed:
 
 *1 Total Number of Votes:
+Total Votes: 369711
 https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Total_Votes.png
 
 *2 Number of votes cast by county and the percentage of the total:
+Jefferson: 10.510% (38855)
+Denver: 82.782% (306055)
+Arapahoe: 6.708% (24801)
 https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/County_Data.png
 
 *3 The county with largest number of votes:
+Largest County Turnout: Denver
 https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Largest_Voter_Turnout.png
 
 *4 Number of votes received by each candidate and the percentage of the total votes received by each candidate:
+Charles Casper Stockham: 23.049% (85213)
+Diana DeGette: 73.812% (272892)
+Raymon Anthony Doane: 3.139% (11606)
 https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Candidate_Data.png
 
 *5 The winning candidate with their number of votes and percentage of votes received:
+Winner: Diana DeGette
+Winning Vote Count: 272892
+Winning Percent: 73.812%
 https://github.com/JayLeeBiggs/Election_Analysis/blob/main/Resources/Winning_Candidate.png
 
 
